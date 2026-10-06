@@ -49,10 +49,6 @@ export const metadata: Metadata = {
     description,
     ...(socialImage && { images: [socialImage] }),
   },
-  icons: {
-    icon: '/favicon.png',
-    apple: '/favicon.png',
-  },
 }
 
 export const viewport: Viewport = {
